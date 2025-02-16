@@ -1,0 +1,15 @@
+#!/bin/bash
+echo "enter range"
+read r
+a=0
+b=1
+echo "fibonacci series"
+echo "$a"
+for((i=1;i<r;i++))
+do
+echo "$b"
+temp=$((a+b))
+a=$b
+b=$next
+done
+echo ""
